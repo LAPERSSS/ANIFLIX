@@ -1,0 +1,127 @@
+@font-face {
+  font-family: rubik;
+  src: url(../public/fonts/Rubik-Medium.ttf);
+}
+
+.kotak {
+  margin: 30px;
+  height: 10rem;
+  width: 15rem;
+  background-color: rgb(255, 0, 0);
+}
+
+.bodoh {
+  height: 6rem;
+  width: 10rem;
+  background-color: black;
+}
+
+.carouselImg {
+  height: 32rem;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.genreContainer {
+  background-color: white;
+
+  width: 70rem;
+  position: absolute;
+  left: 7rem;
+  z-index: 3;
+}
+
+.carouselText {
+  -webkit-text-stroke: 1px black;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navText {
+  text-decoration: none;
+  color: black;
+  font-family: rubik;
+}
+
+.animeSearch {
+  display: flex;
+  flex-direction: row;
+  width: 190vh;
+  flex-wrap: wrap;
+  justify-content: left;
+
+  margin: auto;
+}
+
+.hasilSearchText {
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+  font-family: rubik;
+}
+
+.movieLanding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  width: 40rem;
+  top: 0;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+}
+
+.movieLandingMenu {
+  z-index: 2;
+  margin: 1rem;
+}
+
+.eps {
+  display: flex;
+  width: 6.5rem;
+  /* overflow: hidden; */
+}
+
+.kotakEps {
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  margin-left: 2px;
+  margin-right: 2px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 13px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 3rem;
+  color: antiquewhite;
+  bottom: 1px;
+  height: 3.5rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow:hover {
+  color: aqua;
+  transition: 0.7s;
+}
+
+.kotakEps:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
