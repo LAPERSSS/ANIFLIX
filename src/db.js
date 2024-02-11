@@ -88,7 +88,7 @@ const animes = [
     id: "014",
     mainBg: "bocchi.mp4",
     season: {
-      season1: ["bocchi1.mp4", "bocchi2.mp4", "bocchi3.mp4", "bocchi4.mp4", "bocchi5.mp4", "bocchi6.mp4", "bocchi7.mp4", "bocchi8.mp4", "bocchi9.mp4", "bocchi10.mp4", "bocchi11.mp4", "bocchi12.mp4"],
+      season1: ["bocchi1.mp4", "bocchi2.mp4", "bocchi3.mp4"],
     },
   },
 ];
