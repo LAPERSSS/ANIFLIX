@@ -86,7 +86,7 @@ const animes = [
     genre: "MUSICAL",
     image: "bocchi.png",
     id: "014",
-    mainBg: "bocchi.mp4",
+    mainBg: "bocchiBg.mp4",
     season: {
       season1: ["bocchi1.mp4", "bocchi2.mp4", "bocchi3.mp4"],
     },

@@ -46,9 +46,9 @@ function TheMovie() {
   for (const anime of animes) {
     if (anime.id == params.keyword) {
       animeName = anime.name;
-      animeBg = anime?.mainBg ?? "mainBg.mp4";
+      animeBg = anime?.mainBg ?? "bg.mp4";
       animeEp = anime.season?.["season" + [season]].length ?? 1;
-      animeVideo = anime.season?.["season" + [season]][episode] ?? "bnhas2e1.MOV";
+      animeVideo = anime.season?.["season" + [season]][episode] ?? "vid.MOV";
       animeSeason = anime?.season ?? { season1: [""] };
     }
   }
@@ -94,7 +94,7 @@ function TheMovie() {
   return (
     <>
       <div style={{ height: "100vh", overflow: "hidden" }}>
-        <video muted autoPlay="autoPlay" loop src={`../src/assets/${animeBg}`}></video>
+        <video muted autoPlay="autoPlay" loop src={`../src/videos/${animeBg}`} style={{ width: "110%" }}></video>
       </div>
 
       <div className="movieLanding">

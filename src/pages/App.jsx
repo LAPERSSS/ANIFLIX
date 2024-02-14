@@ -48,7 +48,7 @@ function App() {
         <h2 className="mt-5 ms-5">TOP 10</h2>
 
         <Carousel responsive={responsive} swipeable={false} draggable={false}>
-          <KotakMovie gambar={"AOT.jpg"} animeId={"004"} />
+          <KotakMovie gambar={"bocchi.png"} animeId={"014"} />
           <KotakMovie gambar={"bnha.png"} animeId={"007"} />
           <KotakMovie gambar={"Bleach.jpg"} animeId={"006"} />
           <KotakMovie gambar={"naruto.jpg"} animeId={"013"} />
