@@ -45,7 +45,7 @@ function NavbarC() {
   // }
 
   let warnaTombol = getNavbarValue ? "red" : "black";
-  let genreContainerOn = getNavbarValue ? "block" : "none";
+  let genreContainerOn = getNavbarValue ? "none" : "none";
   return (
     <>
       <Navbar className="bg-body-tertiary ">
