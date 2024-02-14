@@ -7,7 +7,7 @@ import SearchPage from "./pages/Search/[keyword]/SearchPage";
 
 const Show = () => {
   return (
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path={`/Anime/:keyword`} element={<TheMovie />}></Route>
