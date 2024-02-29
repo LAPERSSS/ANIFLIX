@@ -94,7 +94,7 @@ function TheMovie() {
   return (
     <>
       <div style={{ height: "100vh", overflow: "hidden" }}>
-        <video muted autoPlay="autoPlay" loop src={`/ANIFLIX/${animeBg}`} style={{ width: "110%" }}></video>
+        <video muted autoPlay="autoPlay" loop src={`/ANIFLIX/src/videos/${animeBg}`} style={{ width: "110%" }}></video>
       </div>
 
       <div className="movieLanding">
@@ -114,7 +114,7 @@ function TheMovie() {
           {seasons}
         </Form.Select>
         <div className="movieLandingMenu" style={{ width: "20rem", top: "200px", marginTop: "5rem" }}>
-          <video controls src={`/ANIFLIX/${animeVideo}`} style={{ width: "100%" }}></video>
+          <video controls src={`/ANIFLIX/src/videos/${animeVideo}`} style={{ width: "100%" }}></video>
         </div>
       </div>
       <div style={{ width: "7rem", position: "absolute", left: "16.5rem", bottom: "21.5rem", zIndex: "10" }}>
