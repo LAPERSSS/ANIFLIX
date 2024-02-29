@@ -7,7 +7,7 @@ function KotakMovie(props) {
     <>
       <div href="">
         <div
-          style={{ backgroundImage: `url(/ANIFLIX/public/${props.gambar})`, backgroundSize: "cover", backgroundPosition: "center", borderRadius: "25px" }}
+          style={{ backgroundImage: `url(/ANIFLIX/${props.gambar})`, backgroundSize: "cover", backgroundPosition: "center", borderRadius: "25px" }}
           onClick={() => {
             navigate(`/Anime/${props.animeId}`);
             console.log(props.animeId);
