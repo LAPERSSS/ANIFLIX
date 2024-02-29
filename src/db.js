@@ -41,8 +41,8 @@ const animes = [
     image: "bnha.png",
     id: "007",
     season: {
-      season1: ["bnha1.mp4"],
-      season2: ["bnhas2e1.MOV"],
+      season1: [],
+      season2: [],
     },
   },
   {
